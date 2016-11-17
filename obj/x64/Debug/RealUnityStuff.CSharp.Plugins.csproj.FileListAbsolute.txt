@@ -1,0 +1,13 @@
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\Assembly-CSharp-firstpass.dll
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\Assembly-CSharp-firstpass.pdb
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\UnityEditor.dll
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\UnityEngine.dll
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\UnityEngine.Networking.dll
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\UnityEngine.UI.dll
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\UnityEngine.xml
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\UnityEngine.UI.xml
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\UnityEngine.Networking.xml
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\bin\x64\Debug\UnityEditor.xml
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\obj\x64\Debug\RealUnityStuff.CSharp.Plugins.csprojResolveAssemblyReference.cache
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\obj\x64\Debug\Assembly-CSharp-firstpass.dll
+F:\seniorproject\UnityProjects\Testing\RealUnityStuff\obj\x64\Debug\Assembly-CSharp-firstpass.pdb

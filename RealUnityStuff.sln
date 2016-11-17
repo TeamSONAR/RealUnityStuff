@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealUnityStuff.CSharp.Plugins", "RealUnityStuff.CSharp.Plugins.csproj", "{9F7D92D0-A8D5-E826-EC80-0334F1053933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealUnityStuff.CSharp", "RealUnityStuff.CSharp.csproj", "{EB6D08D1-116E-7058-0958-5D776D31842F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealUnityStuff.CSharp.Editor", "RealUnityStuff.CSharp.Editor.csproj", "{B36A6E17-33DF-56B1-D47B-7EB9AFD63306}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderingPlugin", "..\PluginSource\projects\VisualStudio2015\RenderingPlugin.vcxproj", "{F7CFEF5A-54BD-42E8-A59E-54ABAEB4EA9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlenderToDepthMapDLL", "..\..\..\Visual Studio\BlenderToDepthMapDLL\BlenderToDepthMapDLL\BlenderToDepthMapDLL.vcxproj", "{CE75748E-66A3-4C68-A77C-F20471036A5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F7D92D0-A8D5-E826-EC80-0334F1053933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7D92D0-A8D5-E826-EC80-0334F1053933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7D92D0-A8D5-E826-EC80-0334F1053933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7D92D0-A8D5-E826-EC80-0334F1053933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6D08D1-116E-7058-0958-5D776D31842F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6D08D1-116E-7058-0958-5D776D31842F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6D08D1-116E-7058-0958-5D776D31842F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6D08D1-116E-7058-0958-5D776D31842F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36A6E17-33DF-56B1-D47B-7EB9AFD63306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36A6E17-33DF-56B1-D47B-7EB9AFD63306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36A6E17-33DF-56B1-D47B-7EB9AFD63306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36A6E17-33DF-56B1-D47B-7EB9AFD63306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CFEF5A-54BD-42E8-A59E-54ABAEB4EA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CFEF5A-54BD-42E8-A59E-54ABAEB4EA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CFEF5A-54BD-42E8-A59E-54ABAEB4EA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CFEF5A-54BD-42E8-A59E-54ABAEB4EA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE75748E-66A3-4C68-A77C-F20471036A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE75748E-66A3-4C68-A77C-F20471036A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE75748E-66A3-4C68-A77C-F20471036A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE75748E-66A3-4C68-A77C-F20471036A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
