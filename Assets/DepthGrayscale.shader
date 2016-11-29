@@ -38,8 +38,8 @@ fragOut frag(v2f i){
 	float depthValue = Linear01Depth(tex2Dproj(_CameraDepthTexture, UNITY_PROJ_COORD(i.scrPos)).r);
 	//half depth;
 
-	o.color.b = fmod(depthValue * 256, 1);
-	o.color.g = floor(depthValue * 256)/256;
+	o.color.g = fmod(depthValue * 256, 1);
+	o.color.b = floor(depthValue * 256)/256;
 	//UNITY_OUTPUT_DEPTH(i.depth);
 	//depth.g = depthValue;
 	//depth.b = depthValue;

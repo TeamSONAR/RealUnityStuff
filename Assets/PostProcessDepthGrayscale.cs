@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Runtime.InteropServices;
+using UnityEditor;
 //so that we can see changes we make without having to run the game
 
 [ExecuteInEditMode]
@@ -39,23 +40,40 @@ public class PostProcessDepthGrayscale : MonoBehaviour
     int OldFoo = 0;
     int pwidth;
 
+    public static Vector2 GetMainGameViewSize()
+    {
+        System.Type T = System.Type.GetType("UnityEditor.GameView,UnityEditor");
+        System.Reflection.MethodInfo GetSizeOfMainGameView = T.GetMethod("GetSizeOfMainGameView", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+        System.Object Res = GetSizeOfMainGameView.Invoke(null, null);
+        return (Vector2)Res;
+    }
+
     void Start()
     {
         GetComponent<Camera>().depthTextureMode = DepthTextureMode.Depth;
-        Vector3 extent = GetComponent< Camera>().ViewportToScreenPoint(new Vector3(0, 0, 0));
-        print(extent.x.ToString());
-        print(extent.y.ToString());
+        print(GetComponent<Camera>().rect.ToString());
+        Vector3 extent = Camera.main.ViewportToScreenPoint(new Vector3(0, 0, 0));
+        print(extent.ToString());
+        //print(GetComponent<Camera>().rect.center.ToString());
+        //print(GetComponent<Camera>().canvas.yMin.ToString());
+        //print(extent.x.ToString());
+        //print(extent.y.ToString());
     }
 
     void OnEnable()
     {
         int cwidth = GetComponent<Camera>().pixelWidth;
         pwidth = cwidth;
-        int cheight = GetComponent<Camera>().pixelHeight;
+        //int cheight = GetComponent<Camera>().pixelHeight;
+        int cheight = Screen.width;
+        //print(cheight.ToString());
 
-        print((cwidth * cheight).ToString());
+        //print((cwidth * cheight).ToString());
         int outval = SetupReadPixels();
-        print(outval.ToString());
+        //print(outval.ToString());
+        Vector2 Currfdios = GetMainGameViewSize();
+        print(Currfdios.ToString());
+
         print("Mapping");
     }
 
